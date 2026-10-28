@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Oficina dos Guri</title>
+    <link rel="stylesheet" href="Styles/contato.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header class="menu">
+        <h2 class="logo">Oficina dos Guri</h2>
+
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Servicos.html">Serviços</a></li>
+                <li><a href="Equipe.html">Equipe</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="Contato.html" class="ativo">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+        <h1>ENTRE EM CONTATO</h1>
+        <p>Precisa de ajuda com seu carro? Fale com a gente!</p>
+    </section>
+
+    <main class="contato">
+
+        <h2 class="titulo">Como podemos ajudar?</h2>
+
+        <!-- dois cards lado a lado: informações e formulário -->
+        <div class="colunas">
+
+            <!-- INFORMAÇÕES -->
+            <section class="card">
+                <h3>Nossas informações</h3>
+
+                <div class="item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>R. Gen. Frota, 2661 - Centro, Taquara - RS</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <span>📞</span>
+                    <div>
+                        <h4>Telefone</h4>
+                        <p>(55) 19767-5332</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <span>💬</span>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>Fale diretamente com nossa equipe.</p>
+                        <a href="https://wa.me/555197675332" target="_blank" rel="noopener noreferrer">
+                            Chamar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <span>🕒</span>
+                    <div>
+                        <h4>Horário de funcionamento</h4>
+                        <p>Segunda a sexta: consulte nossos horários.</p>
+                        <p>Sábado: consulte nossos horários.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FORMULÁRIO -->
+            <section class="card">
+                <h3>Envie sua mensagem</h3>
+
+                <form>
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(00) 00000-0000" required>
+
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option>Agendamento</option>
+                        <option>Orçamento</option>
+                        <option>Dúvida</option>
+                        <option>Outro</option>
+                    </select>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+
+        </div>
+
+        <!-- MAPA -->
+        <section class="mapa">
+            <h2>Encontre nossa oficina</h2>
+            <p>R. Gen. Frota, 2661 - Centro, Taquara - RS, 95600-072</p>
+
+            <iframe
+                src="https://maps.google.com/maps?q=R.%20Gen.%20Frota%2C%202661%20-%20Centro%2C%20Taquara%20-%20RS%2C%2095600-072&output=embed"
+                loading="lazy" allowfullscreen title="Localização da Oficina dos Guri">
+            </iframe>
+
+            <a class="botao"
+                href="https://www.google.com/maps/search/?api=1&query=R.%20Gen.%20Frota%2C%202661%20-%20Centro%2C%20Taquara%20-%20RS%2C%2095600-072"
+                target="_blank" rel="noopener noreferrer">
+                Abrir no Google Maps
+            </a>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <h3>Me acompanhe nas redes!</h3>
+        <p>Receba atualizações e novidades em tempo real.</p>
+
+        <div class="redes">
+            <a href="Index.html"><img src="assets/facebook.png" alt="Facebook"></a>
+            <a href="Index.html"><img src="assets/instagram.png" alt="Instagram"></a>
+        </div>
+
+        <div class="whatsapp">
+            <img src="assets/whatsapp (1).png" alt="WhatsApp">
+            <p>WhatsApp: (55) 19767-5332</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
